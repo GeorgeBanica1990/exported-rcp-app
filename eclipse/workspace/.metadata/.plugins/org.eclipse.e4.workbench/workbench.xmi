@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_r02iQXhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.application" contributorURI="platform:/plugin/com.georgeb.rcpapp" selectedElement="_r02iQnhWEeax6edRL-9b8Q" bindingContexts="_r02iVXhWEeax6edRL-9b8Q">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_r02iQnhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.window.main" contributorURI="platform:/plugin/com.georgeb.rcpapp" selectedElement="_r02iQ3hWEeax6edRL-9b8Q" label="Eclipse 4 RCP Application" x="128" y="128" width="800" height="600">
+    <tags>topLevel</tags>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_r02iQ3hWEeax6edRL-9b8Q" elementId="org.eclipse.ui.ide.perspectivestack" contributorURI="platform:/plugin/com.georgeb.rcpapp" selectedElement="_r02iRHhWEeax6edRL-9b8Q">
+      <children xsi:type="advanced:Perspective" xmi:id="_r02iRHhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.perspective.sample" contributorURI="platform:/plugin/com.georgeb.rcpapp" selectedElement="_r02iRXhWEeax6edRL-9b8Q">
+        <children xsi:type="advanced:Area" xmi:id="_r02iRXhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.area.0" contributorURI="platform:/plugin/com.georgeb.rcpapp" containerData="" selectedElement="_r02iRnhWEeax6edRL-9b8Q" horizontal="true" label="GitAddress">
+          <children xsi:type="basic:Part" xmi:id="_r02iRnhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.part.getgitaddress" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://com.georgeb.rcpapp/com.georgeb.rcpapp.parts.GetGitAddress" label="GetGitAddress"/>
+        </children>
+        <children xsi:type="advanced:Area" xmi:id="_r02iR3hWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.area.2" contributorURI="platform:/plugin/com.georgeb.rcpapp" containerData="" horizontal="true" label="ListOfCommits">
+          <children xsi:type="basic:InputPart" xmi:id="_r02iSHhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.inputpart.listofcommits" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://com.georgeb.rcpapp/com.georgeb.rcpapp.parts.ListOfCommits" label="ListOfCommits"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_r02iSXhWEeax6edRL-9b8Q" elementId="org.eclipse.ui.main.menu" contributorURI="platform:/plugin/com.georgeb.rcpapp">
+      <children xsi:type="menu:Menu" xmi:id="_r02iSnhWEeax6edRL-9b8Q" elementId="file" contributorURI="platform:/plugin/com.georgeb.rcpapp" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_r02iS3hWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.handleditem.quit" contributorURI="platform:/plugin/com.georgeb.rcpapp" label="Quit" command="_r02iWHhWEeax6edRL-9b8Q"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_r02iTHhWEeax6edRL-9b8Q" elementId="help" contributorURI="platform:/plugin/com.georgeb.rcpapp" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_r02iTXhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.handleditem.about" contributorURI="platform:/plugin/com.georgeb.rcpapp" label="About" command="_r02iWXhWEeax6edRL-9b8Q"/>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_r02iTnhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.handler.quitCommand" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://com.georgeb.rcpapp/com.georgeb.rcpapp.handlers.QuitHandler" command="_r02iWHhWEeax6edRL-9b8Q"/>
+  <handlers xmi:id="_r02iT3hWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.handler.aboutCommand" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://com.georgeb.rcpapp/com.georgeb.rcpapp.handlers.AboutHandler" command="_r02iWXhWEeax6edRL-9b8Q"/>
+  <bindingTables xmi:id="_r02iUHhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.bindingtable" contributorURI="platform:/plugin/com.georgeb.rcpapp" bindingContext="_r02iVXhWEeax6edRL-9b8Q">
+    <bindings xmi:id="_r02iUXhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.keybinding.m1q" contributorURI="platform:/plugin/com.georgeb.rcpapp" keySequence="M1+Q" command="_r02iWHhWEeax6edRL-9b8Q"/>
+    <bindings xmi:id="_r02iUnhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.keybinding.m1o" contributorURI="platform:/plugin/com.georgeb.rcpapp" keySequence="M1+O"/>
+    <bindings xmi:id="_r02iU3hWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.keybinding.m1s" contributorURI="platform:/plugin/com.georgeb.rcpapp" keySequence="M1+S"/>
+    <bindings xmi:id="_r02iVHhWEeax6edRL-9b8Q" elementId="com.georgeb.rcpapp.keybinding.m1a" contributorURI="platform:/plugin/com.georgeb.rcpapp" keySequence="M1+A" command="_r02iWXhWEeax6edRL-9b8Q"/>
+  </bindingTables>
+  <rootContext xmi:id="_r02iVXhWEeax6edRL-9b8Q" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/com.georgeb.rcpapp" name="In Dialog and Windows">
+    <children xmi:id="_r02iVnhWEeax6edRL-9b8Q" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/com.georgeb.rcpapp" name="In Windows"/>
+    <children xmi:id="_r02iV3hWEeax6edRL-9b8Q" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/com.georgeb.rcpapp" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_r02iWHhWEeax6edRL-9b8Q" elementId="org.eclipse.ui.file.exit" contributorURI="platform:/plugin/com.georgeb.rcpapp" commandName="quitCommand"/>
+  <commands xmi:id="_r02iWXhWEeax6edRL-9b8Q" elementId="org.eclipse.ui.help.aboutAction" contributorURI="platform:/plugin/com.georgeb.rcpapp" commandName="aboutCommand"/>
+  <addons xmi:id="_r02iWnhWEeax6edRL-9b8Q" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_r02iW3hWEeax6edRL-9b8Q" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_r02iXHhWEeax6edRL-9b8Q" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_r02iXXhWEeax6edRL-9b8Q" elementId="org.eclipse.e4.ui.workbench.commands.model" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_r02iXnhWEeax6edRL-9b8Q" elementId="org.eclipse.e4.ui.workbench.handler.model" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_r02iX3hWEeax6edRL-9b8Q" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_r02iYHhWEeax6edRL-9b8Q" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributorURI="platform:/plugin/com.georgeb.rcpapp" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
